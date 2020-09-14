@@ -10,8 +10,20 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/node", (req, res) => {
-  res.render("node");
+app.get("/page01", (req, res) => {
+  res.render("page01");
+});
+
+app.get("/page02", (req, res) => {
+  res.render("page02");
+});
+
+app.get("/page03", (req, res) => {
+  res.render("page03");
+});
+
+app.get("/page04", (req, res) => {
+  res.render("page04");
 });
 
 app.listen(3333, () => {
